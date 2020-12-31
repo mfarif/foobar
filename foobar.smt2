@@ -1,4 +1,4 @@
-;; SMT encoding of a Simple Pogram:
+;; SMT 1-2-1 encoding of a Simple Pogram:
 ;
 ;1.   void  foobar(int a, int b) {
 ;2.      int x = 1, y = 0;
@@ -10,7 +10,7 @@
 ;8.      
 ;9.       assert(x-y != 0);
 ;10.  }
-;
+; SMT Solver will find values (a = 2 and b = 0) that fail the above assertion.
 ; Reference: https://arxiv.org/pdf/1610.00502.pdf on Page#2.
 
 (set-logic ALL)
