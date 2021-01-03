@@ -1,4 +1,4 @@
-;; SMT 1-2-1 encoding of a Simple Pogram:
+;; SMT 1-2-1 encoding of a Simple Function:
 ;
 ;1.   void  foobar(int a, int b) {
 ;2.      int x = 1, y = 0;
